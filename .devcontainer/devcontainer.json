@@ -1,6 +1,8 @@
 {
     "name": "cci ur5e",
     "dockerFile": "Dockerfile",
+    "initializeCommand": "xhost +local:",
+    "remoteUser": "docker-user",
     "customizations": {
         "vscode": {
             "extensions": [
